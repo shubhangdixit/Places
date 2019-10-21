@@ -13,6 +13,8 @@
 		9D0A213E235DBF89007A5069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A213D235DBF89007A5069 /* Assets.xcassets */; };
 		9D0A2141235DBF89007A5069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A213F235DBF89007A5069 /* LaunchScreen.storyboard */; };
 		9D0A2149235DC4B9007A5069 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A2148235DC4B9007A5069 /* NetworkManager.swift */; };
+		9D0A214B235DCAED007A5069 /* PlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A214A235DCAED007A5069 /* PlaceManager.swift */; };
+		9D0A214D235DCB17007A5069 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A214C235DCB17007A5069 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9D0A2140235DBF89007A5069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D0A2142235DBF89007A5069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D0A2148235DC4B9007A5069 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9D0A214A235DCAED007A5069 /* PlaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceManager.swift; sourceTree = "<group>"; };
+		9D0A214C235DCB17007A5069 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9D0A213F235DBF89007A5069 /* LaunchScreen.storyboard */,
 				9D0A2142235DBF89007A5069 /* Info.plist */,
 				9D0A2148235DC4B9007A5069 /* NetworkManager.swift */,
+				9D0A214A235DCAED007A5069 /* PlaceManager.swift */,
+				9D0A214C235DCB17007A5069 /* Place.swift */,
 			);
 			path = Places;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0A2149235DC4B9007A5069 /* NetworkManager.swift in Sources */,
+				9D0A214B235DCAED007A5069 /* PlaceManager.swift in Sources */,
 				9D0A2139235DBF88007A5069 /* ViewController.swift in Sources */,
 				9D0A2135235DBF88007A5069 /* AppDelegate.swift in Sources */,
+				9D0A214D235DCB17007A5069 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
