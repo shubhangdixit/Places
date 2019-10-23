@@ -15,6 +15,10 @@
 		9D0A2149235DC4B9007A5069 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A2148235DC4B9007A5069 /* NetworkManager.swift */; };
 		9D0A214B235DCAED007A5069 /* PlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A214A235DCAED007A5069 /* PlaceManager.swift */; };
 		9D0A214D235DCB17007A5069 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A214C235DCB17007A5069 /* Place.swift */; };
+		9D0A214F235F3148007A5069 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A214E235F3148007A5069 /* MapViewController.swift */; };
+		9D0A2151235F3154007A5069 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A2150235F3154007A5069 /* ListViewController.swift */; };
+		9D0A2153235F3161007A5069 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A2152235F3161007A5069 /* AddListViewController.swift */; };
+		9D0A215523603004007A5069 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A215423603004007A5069 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		9D0A2148235DC4B9007A5069 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9D0A214A235DCAED007A5069 /* PlaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceManager.swift; sourceTree = "<group>"; };
 		9D0A214C235DCB17007A5069 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		9D0A214E235F3148007A5069 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9D0A2150235F3154007A5069 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9D0A2152235F3161007A5069 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
+		9D0A215423603004007A5069 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				9D0A2148235DC4B9007A5069 /* NetworkManager.swift */,
 				9D0A214A235DCAED007A5069 /* PlaceManager.swift */,
 				9D0A214C235DCB17007A5069 /* Place.swift */,
+				9D0A214E235F3148007A5069 /* MapViewController.swift */,
+				9D0A2150235F3154007A5069 /* ListViewController.swift */,
+				9D0A2152235F3161007A5069 /* AddListViewController.swift */,
+				9D0A215423603004007A5069 /* Utility.swift */,
 			);
 			path = Places;
 			sourceTree = "<group>";
@@ -145,10 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0A2149235DC4B9007A5069 /* NetworkManager.swift in Sources */,
+				9D0A214F235F3148007A5069 /* MapViewController.swift in Sources */,
+				9D0A215523603004007A5069 /* Utility.swift in Sources */,
+				9D0A2153235F3161007A5069 /* AddListViewController.swift in Sources */,
 				9D0A214B235DCAED007A5069 /* PlaceManager.swift in Sources */,
 				9D0A2139235DBF88007A5069 /* ViewController.swift in Sources */,
 				9D0A2135235DBF88007A5069 /* AppDelegate.swift in Sources */,
 				9D0A214D235DCB17007A5069 /* Place.swift in Sources */,
+				9D0A2151235F3154007A5069 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
